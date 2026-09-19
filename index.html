@@ -63,15 +63,15 @@
       </p>
       <div class="hero-stats">
         <div class="stat">
-          <span class="stat-num">3</span>
+          <span class="stat-num" data-target="3">3</span>
           <span class="stat-label">years in ABAP delivery</span>
         </div>
         <div class="stat">
-          <span class="stat-num">3</span>
+          <span class="stat-num" data-target="3">3</span>
           <span class="stat-label">organisations, 3 project types</span>
         </div>
         <div class="stat">
-          <span class="stat-num">9.33</span>
+          <span class="stat-num" data-target="9.33">9.33</span>
           <span class="stat-label">CGPA, B.Tech IT</span>
         </div>
       </div>
@@ -129,8 +129,8 @@
           <p class="job-org">QBA Pvt Ltd</p>
           <ul class="job-points">
             <li>Delivered custom ABAP development across implementation and rollout projects — custom reports, Adobe Forms, and Lift &amp; Shift migration of RICEF objects for new plant/company code go-lives.</li>
-            <li>Implemented a BAdI enhancement for <span class="tx">MIGO</span> to embed custom validation into the goods movement posting process.</li>
-            <li>Built an enhancement point in <span class="tx">WE14</span> to customise outbound IDoc processing for accurate external data exchange.</li>
+            <li>Implemented a BAdI enhancement for <span class="tx" tabindex="0" data-tooltip="Goods movement posting transaction">MIGO</span> to embed custom validation into the goods movement posting process.</li>
+            <li>Built an enhancement point in <span class="tx" tabindex="0" data-tooltip="Outbound IDoc processing transaction">WE14</span> to customise outbound IDoc processing for accurate external data exchange.</li>
             <li>Built Module Pool programs for Gate IN/Gate OUT forms — transaction screens and print slip generation for warehouse gate operations.</li>
             <li>Owned RICEF objects end-to-end: technical design through unit testing and deployment, working directly with functional teams and business users.</li>
           </ul>
@@ -332,17 +332,19 @@
     </div>
 
     <div class="contact-grid">
-      <a class="contact-card" href="mailto:vignesh.das020@gmail.com">
+      <div class="contact-card">
         <span class="contact-label">Email</span>
-        <span class="contact-value">vignesh.das020@gmail.com</span>
-      </a>
-      <a class="contact-card" href="tel:+918961446176">
+        <a class="contact-value" href="mailto:vignesh.das020@gmail.com">vignesh.das020@gmail.com</a>
+        <button class="copy-btn" data-copy="vignesh.das020@gmail.com" aria-label="Copy email address">Copy</button>
+      </div>
+      <div class="contact-card">
         <span class="contact-label">Phone</span>
-        <span class="contact-value">+91 89614 46176</span>
-      </a>
+        <a class="contact-value" href="tel:+918961446176">+91 89614 46176</a>
+        <button class="copy-btn" data-copy="+91 89614 46176" aria-label="Copy phone number">Copy</button>
+      </div>
       <a class="contact-card" href="https://www.linkedin.com/in/vignesh-d-5351081a6/" target="_blank" rel="noopener">
         <span class="contact-label">LinkedIn</span>
-        <span class="contact-value">/in/vignesh-d-5351081a6</span>
+        <span class="contact-value">Vignesh Das LinkedIn</span>
       </a>
       <div class="contact-card contact-card--static">
         <span class="contact-label">Location</span>
